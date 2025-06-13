@@ -610,13 +610,15 @@ html{
   }
 }
 
+
+
   @media (max-width: 520px){
     .cabecalho h1{
-      font-size: 40px;
+      font-size: 32px;
     }
     .cabecalho-sub-titulo{
       margin-top: 10px;
-      font-size: 38px;
+      font-size: 30px;
     }
     .botao-menu{
       display: block;
