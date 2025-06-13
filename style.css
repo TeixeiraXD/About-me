@@ -22,7 +22,9 @@ html{
     --vidro: rgba(255, 255, 255, 0.1);
   }
 
-  
+  body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
@@ -30,6 +32,7 @@ html{
     margin: 0;
     padding: 0;
     line-height: 1.6;
+
   }
 
   a{
@@ -306,10 +309,9 @@ html{
     text-align: center;
   }
 
-  .skiils{
-    box-shadow: 4px 4px 4px 4px var(--claro);
-  }
-    
+.skiils {
+  box-shadow: 0 8px 8px -2px var(--claro);
+}
   .skiils-titulo{
     font-size: 30px;
     color: var(--titulo);
@@ -623,14 +625,32 @@ html{
     }
 
   }
-  @media (max-width: 376px){
-        .timeline-date{
+  @media (max-width: 320px){
+    .cabecalho h1{
+      font-size: 40px;
+    }
+    .cabecalho-sub-titulo{
+      margin-top: 10px;
+      font-size: 38px;
+    }
+
+    .menu-mobile{
+      width: 30%;
+    }
+
+    .timeline{
       width: 100%;
+    }
+    .timeline-date{
+      width: 90%;
       display: flex;
+      font-size: 12px;
     }
-    .timeline-content{
+
+    .contato{
       width: 100%;
     }
+
   }
 
 @media (max-width: 769px){
