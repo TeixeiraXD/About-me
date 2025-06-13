@@ -624,12 +624,15 @@ html{
       font-size: 15px;
     }
 
+    /* ajustei aqui */
     .projetos-tecnologias{
       font-size: 10px;
+      width: 40%;
     }
 
     .timeline-date{
       font-size: 9px;
+      display: flex;
     }
     
     .botao-menu{
