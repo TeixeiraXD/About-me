@@ -21,10 +21,6 @@ html{
     --titulo: #23b9e2;
     --vidro: rgba(255, 255, 255, 0.1);
   }
-
-  body::-webkit-scrollbar {
-  display: none; /* Chrome, Safari */
-}
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
@@ -32,7 +28,6 @@ html{
     margin: 0;
     padding: 0;
     line-height: 1.6;
-
   }
 
   a{
@@ -311,6 +306,7 @@ html{
 
 .skiils {
   box-shadow: 0 8px 8px -2px var(--claro);
+  
 }
   .skiils-titulo{
     font-size: 30px;
@@ -625,7 +621,7 @@ html{
     }
 
   }
-  @media (max-width: 320px){
+  @media (max-width: 360px){
     .cabecalho h1{
       font-size: 40px;
     }
