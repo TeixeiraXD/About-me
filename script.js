@@ -40,3 +40,8 @@ const tecnologias = ["Java", "React", "JavaScript", "TypeScript", "Power Platfor
   });
 
   items.forEach(item => observer.observe(item));
+
+  document.body.setAttribute('data-width', window.innerWidth);
+window.addEventListener('resize', () => {
+  document.body.setAttribute('data-width', window.innerWidth);
+});

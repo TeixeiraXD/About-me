@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+     overflow-x: hidden;
 }
 
 :root {
@@ -28,7 +29,20 @@ html{
     margin: 0;
     padding: 0;
     line-height: 1.6;
+     overflow-x: hidden;
   }
+
+  body::before {
+  content: 'Viewport: ' attr(data-width) 'px';
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: black;
+  color: white;
+  padding: 2px 5px;
+  font-size: 12px;
+  z-index: 9999;
+}
 
   a{
     text-decoration: none;
@@ -621,7 +635,7 @@ html{
     }
 
   }
-  @media (max-width: 360px){
+  @media (max-width: 378px){
     .cabecalho h1{
       font-size: 40px;
     }
