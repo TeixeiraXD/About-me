@@ -614,12 +614,24 @@ html{
 
   @media (max-width: 520px){
     .cabecalho h1{
-      font-size: 32px;
+      font-size: 35px;
     }
     .cabecalho-sub-titulo{
       margin-top: 10px;
       font-size: 30px;
     }
+    .cabecalho h3{
+      font-size: 15px;
+    }
+
+    .projetos-tecnologias{
+      font-size: 10px;
+    }
+
+    .timeline-date{
+      font-size: 9px;
+    }
+    
     .botao-menu{
       display: block;
       justify-content: flex-start;
@@ -652,7 +664,6 @@ html{
     .timeline-date{
       width: 90%;
       display: flex;
-      font-size: 12px;
     }
 
     .contato{
