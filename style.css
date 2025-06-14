@@ -653,6 +653,13 @@ html{
     .contato{
       width: 60%;
     }
+    .tecnologias-conteiner-item h4{
+      font-size: 0.8em;
+    }
+
+    .tecnologias-conteiner-item span{
+      font-size: 0.8em;
+    }
 
   }
   @media (max-width: 378px){
